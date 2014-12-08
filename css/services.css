@@ -1,0 +1,177 @@
+
+@media (max-width: 955px) {
+              #foto_principal{float: left; margin:10px 10px; padding: 0px; width:400px;
+                                content:url("../images/camion.png");
+              }
+
+             #img_servicios{margin:0px auto;} 
+
+
+
+            /*pie --> quito la imagen del logo y desplazo la lista*/
+            #texto{color:white; float:left; position: relative; margin-left:-30px;}
+            #texto li{list-style: none; display:block; }
+            #partnet_tab{position:relative; left:100px; width:750px}
+            #partnet_tab img{position:relative; padding:1px; margin:0 auto;}
+            #logo_pie *{content:url(""); position:absolute; right:5px; bottom:-290px;}
+            #logo_pie_servicios *{content:url(""); position:absolute; right:5px; bottom:-390px;}
+
+            #logo{margin:-10px auto;}
+            #menu{display: inline; list-style: none; position: absolute; top:10px; left:100px;}
+            #menu li{float:left; margin-left: 0px; font-size: 12pt; color:white; }
+            #menu li a{text-decoration: none; color:white;}
+            #menu li a:hover{text-decoration: none; color:rgb(212,220,160);}
+            .icon{ font-family: icons; color:white; font-size: 8pt; margin:6px 5px;}
+            .icon:hover{color:rgb(212,220,160);}
+            #login{position: relative; top:0px; left:-350px;}
+    
+            #facebook{color:white; position: absolute; right: 24px; top:15px; font-family: socnet; font-size: 1.8em;}
+            #facebook li, a{list-style: none; margin-top: 15px; color:white; text-decoration: none;}
+            #facebook li, a:hover{list-style: none; margin-top: 10px; color:rgb(212,220,160); text-decoration: none;}
+
+  #tracking_tab{position:relative; top:-272px; left:455px;  height:170px; width:200px;  z-index:2;}
+
+}
+    
+    
+body{
+    background-color:rgb(32,42,52);
+    font-family: tunga;   
+    margin: 10px 10px;
+/*  background-color:rgb(230,128,46);*/
+}
+
+#caja_header{background-color:rgb(3,117,101); height: 123px; width:100%;  margin:0 auto;}
+#caja_contenido{   background-color:rgb(32,42,52);/*background-color:rgb(212,220,160);*/  width:100%; height: 506px;  margin:0 auto;}
+#caja_seguimiento{ background-color:white;  width:100%;   height: 430px; margin:-20px auto;}
+#caja_pie{ background-color:rgb(33,43,35);  width:100%;    height: 200px; margin:-10px auto;}
+
+header{
+    width:1300px;
+    height: 100%;
+    margin:0 auto;
+}
+h1{
+    position: relative;
+    top: -115px;
+    left: -250px;
+    color: white;
+    font-family: slant;
+    font-size: 3em;
+    text-align: center;
+}
+
+#logo{margin:-10px auto;}
+#nav_menu{position: relative; top: -220px; left: 338px; margin: 0 auto; width: 900px;}
+#menu{display: inline; list-style: none; position: absolute;}
+#menu li{float:left; margin-left: 65px; font-size: 16pt; color:black; z-index: 80; }
+#menu li a{text-decoration: none; color:white;}
+#menu li a:hover{text-decoration: none; color:rgb(212,220,160);}
+.icon{ font-family: icons; color:white; font-size: 28pt; margin:6px 5px;}
+.icon:hover{color:rgb(212,220,160);}
+#login{position: relative;  top: -232px;  left: 780px;}
+#facebook{color: white; position: relative;  top: -300px; font-family: socnet; font-size: 1.8em;  left: 1265px; }
+#facebook li{list-style: none; margin-top: 15px; color:white; text-decoration: none;}
+#facebook li:hover{list-style: none; margin-top: 15px; color:rgb(212,220,160); text-decoration: none;}
+a{list-style: none; color:white; text-decoration: none;}
+a:hover{list-style: none; color:rgb(212,220,160); text-decoration: none;}
+
+#contenido{ margin:0 auto;    width: 1300px;    height: 500px;}
+#foto_principal{ margin:10px 10px; padding: 0px; position: absolute;}
+#foto_principal img{float:left;}
+#tres_botones{width: 0px; position: absolute; left: 59%; margin-top:20px; float:left}
+#tres_botones img{list-style: none; margin-top:-12px;}
+
+#seguimiento{  margin: 0 auto; width: 1300px;  }
+#mapa{float:left; top:20px;}
+#tabla_seguimiento{left:500px;}
+#tracking_tab{position:relative; top:-272px; left:855px;  height:170px; width:400px;  z-index:2;}
+/*0#tracking_tab::before{/*background: url(../images/camion.png);*/ background-color: red; width:300px;  height:300px; top:0px; left:-20px; }*/
+#tracking_tab tr:nth-child(2n+1) th{background-color: lightgray; color:black;}
+#tracking_tab tr:nth-child(2n+1) {background-color: rgb(32,42,52); color:white; text-align: center;}
+#tracking_tab tr:nth-child(2n){background-color: palegreen; color:black;  text-align: center;}
+#camion{position: relative; left:50px; top:0px;}
+button{background-color: rgba(0,0,0,0); border:0px solid rgba(0,0,0,0); position: relative; top:15px;}
+#search{position: relative;  left:290px;}
+#search input{background-color: lightgray;}
+#search label{font-size: 1.5em;}
+#traking::after{width:35px; content:url("../images/search.png"); background-color: lightgray;}
+
+#pie{   width: 1300px; height: 200px; margin: 0px auto; }
+#texto{color:white; float:left; position: relative; left:20px; top:50px;}
+#texto li{list-style: none; display:block; }
+#partnet_tab{position:relative; left:100px; width:750px}
+#partnet_tab img{position:relative; padding:1px; margin:0 auto;}
+#logo_pie{position: relative; width: 270px; left: 1040px; bottom: 115px;}
+
+
+
+
+/*SERVICIOS*/
+#caja_servicios {width: 100%; margin:0px AUTO; background: white; height: 1200px;}
+#img_servicios{position: absolute; margin:0px 200px; width:960px; height:1190px;} 
+#servicios{margin:0 auto;    width: 1300px;    height: 500px;}
+
+/*fuentes */
+
+@font-face {
+  font-family: 'tunga';
+  src: url('../fonts/Tunga-Bold.eot') format('embedded-opentype');
+  src:  url('../fonts/Tunga-Bold.woff') format('woff'), 
+            url('../fonts/Tunga-Bold.ttf')  format('truetype'), 
+            url('../fonts/Tunga-Bold.svg#Slant') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+      font-family: 'slant';
+      src: url('../fonts/Slant.eot') format('embedded-opentype');
+      src:  url('../fonts/Slant.woff') format('woff'), 
+            url('../fonts/Slant.ttf')  format('truetype'), 
+            url('../fonts/Slant.svg#Slant') format('svg');
+      font-weight: normal;
+      font-style: normal;
+}
+
+@font-face {
+    font-family: 'socnet';
+    src: url('../fonts/social_icons_pro_set_1_-_rounded-webfont.eot');
+    src: url('../fonts/social_icons_pro_set_1_-_rounded-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/social_icons_pro_set_1_-_rounded-webfont.woff2') format('woff2'),
+         url('../fonts/social_icons_pro_set_1_-_rounded-webfont.woff') format('woff'),
+         url('../fonts/social_icons_pro_set_1_-_rounded-webfont.ttf') format('truetype'),
+         url('../fonts/social_icons_pro_set_1_-_rounded-webfont.svg#social_icons_pro_set_1_-_roRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+@font-face {
+    font-family: 'icons';
+    src: url('../fonts/entypo-webfont.eot');
+    src: url('../fonts/entypo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/entypo-webfont.woff2') format('woff2'),
+         url('../fonts/entypo-webfont.woff') format('woff'),
+         url('../fonts/entypo-webfont.ttf') format('truetype'),
+         url('../fonts/entypo-webfont.svg#entyporegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+span, nav, aside{{
+        margin:0;
+        padding:0;
+        border:0;
+        outline:0;
+        font-size:100%;
+        vertical-align:baseline;
+        background:transparent;
+}}
+/*CSS RESET/*/
